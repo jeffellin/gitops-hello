@@ -39,7 +39,7 @@ spec:
       - env:
         - name: JAVA_TOOL_OPTIONS
           value: -Dserver.port="8080" -Dserver.shutdown.grace-period="24s"
-        image: harbor.one.appref.end2end.link/tap/sc/appsso-starter-java-canary@sha256:bc171c251533b47df93356938ca98856903776d332777fd3a9f92d6c209e766c
+        image: harbor.one.appref.end2end.link/tap/sc/appsso-starter-java-canary@sha256:9efcbc5bbfa6b226b9272dfbf415c87429519c8ba7856f6fbdb00a08ead5520f
         name: workload
         ports:
         - containerPort: 8080
